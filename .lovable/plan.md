@@ -2,7 +2,7 @@
 
 ## What to build
 - Turn `/` into a polished, browser-based teaching whiteboard focused on an open writing area that occupies nearly the full screen (target: at least 97% of the viewport area).
-- Keep controls to a narrow, translucent icon rail at the far left, with clear tool names on hover and compact secondary options that do not permanently cover the writing area.
+- Keep controls in one narrow, top-to-bottom icon column at the extreme left. When the board is active, make the rail translucent so it stays visible without obstructing writing; use simple icons with brief labels on hover/focus to help new users learn them. Keep secondary options compact and out of the writing area.
 - Provide freehand drawing for mouse and stylus, selection, erasing, text, common shapes and arrows, undo/redo, zoom and pan, and color/stroke controls.
 - Add a presentation view that hides editing controls and uses the browser's full-screen mode when requested. Support saving a drawing locally, reopening it, and exporting it for tutorials.
 - Use a restrained Paper & Ink look with Space Grotesk headings and DM Sans labels as sensible defaults; keep the canvas itself bright, uncluttered, and visually dominant.
